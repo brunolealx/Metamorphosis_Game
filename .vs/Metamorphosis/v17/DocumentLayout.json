@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Projetos\\Metamorphosis\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projetos\\Metamorphosis\\Assets\\Scripts\\Players\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Players\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projetos\\Metamorphosis\\Assets\\Scripts\\Life\\HealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Life\\HealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projetos\\Metamorphosis\\Assets\\Scripts\\Doors\\Door1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Doors\\Door1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +86,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Projetos\\Metamorphosis\\Assets\\Scripts\\Players\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Players\\PlayerController.cs",
+              "ToolTip": "C:\\Projetos\\Metamorphosis\\Assets\\Scripts\\Players\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Players\\PlayerController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAwwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T14:43:06.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "C:\\Projetos\\Metamorphosis\\Assets\\Scripts\\Life\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Life\\HealthBar.cs",
+              "ToolTip": "C:\\Projetos\\Metamorphosis\\Assets\\Scripts\\Life\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Life\\HealthBar.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T14:40:14.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "InventoryToggle.cs",
               "DocumentMoniker": "C:\\Projetos\\Metamorphosis\\Assets\\Scripts\\Inventory\\InventoryToggle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\InventoryToggle.cs",
@@ -86,12 +119,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\InventoryToggle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T04:32:53.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T04:32:53.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UIInventory.cs",
               "DocumentMoniker": "C:\\Projetos\\Metamorphosis\\Assets\\Scripts\\Inventory\\UIInventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\UIInventory.cs",
@@ -103,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Door1.cs",
               "DocumentMoniker": "C:\\Projetos\\Metamorphosis\\Assets\\Scripts\\Doors\\Door1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Doors\\Door1.cs",
@@ -111,12 +143,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Doors\\Door1.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAwwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T04:15:29.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T04:15:29.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "InventoryManager.cs",
               "DocumentMoniker": "C:\\Projetos\\Metamorphosis\\Assets\\Scripts\\Inventory\\InventoryManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\InventoryManager.cs",
@@ -128,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Projetos\\Metamorphosis\\Assets\\Scripts\\Inventory\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\Item.cs",
@@ -140,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Key1.cs",
               "DocumentMoniker": "C:\\Projetos\\Metamorphosis\\Assets\\Scripts\\Keys\\Key1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Keys\\Key1.cs",

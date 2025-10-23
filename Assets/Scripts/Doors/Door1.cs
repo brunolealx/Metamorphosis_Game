@@ -3,11 +3,10 @@
 public class Door1 : MonoBehaviour
 {
     public Item requiredItem; // Arraste o ScriptableObject da chave aqui
+    public PlayerController player; // Arraste o Player aqui, pra acessar o inventário HUD
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Door trigger detected by: " + other.name);
-
         if (other.CompareTag("Player"))
         {
             if (InventoryManager.instance != null && requiredItem != null)
@@ -15,7 +14,16 @@ public class Door1 : MonoBehaviour
                 if (InventoryManager.instance.items.Contains(requiredItem))
                 {
                     Debug.Log("Door opened!");
-                    Destroy(gameObject); // Remove a porta
+
+                    // Remove a chave do inventário
+                    InventoryManager.instance.RemoveItem(requiredItem);
+
+                    // Esconde o ícone da chave no HUD
+                    if (player != null)
+                        player.inventoryIcon.SetActive(false);
+
+                    // Remove a porta
+                    Destroy(gameObject);
                 }
                 else
                 {

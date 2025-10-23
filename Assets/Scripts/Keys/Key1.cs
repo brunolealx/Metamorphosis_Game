@@ -16,7 +16,7 @@ public class Key1 : MonoBehaviour
     {
         if (other.CompareTag("Player") && keyItem != null && InventoryManager.instance != null)
         {
-            InventoryManager.instance.AddItem(keyItem); // <- Atualizado
+            InventoryManager.instance.AddItem(keyItem);
             Debug.Log("Added to inventory: " + keyItem.itemName);
 
             if (keyIconUI != null && keyItem.icon != null)
